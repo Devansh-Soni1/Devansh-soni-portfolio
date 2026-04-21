@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: { first: 'DEVANSH', last: 'SONI' },
   role: 'Full Stack Developer',
-  location: 'Sikar, Rajasthan',
+  location: 'Sujangarh, Rajasthan',
   email: 'sonidevansh899@gmail.com',
   phone: '+91 9521186211',
   github: 'https://github.com/Devansh-Soni1',
@@ -77,9 +77,9 @@ export const projects = [
 
 export const education = [
   {
-    date: 'AUG 2024 — FEB 2025',
+    date: 'AUG 2025 — FEB 2026',
     title: 'Web Development Course',
-    org: '// JDB Infotech Institute, Sikar',
+    org: '// JDB Infotech Institute, jaipur',
     desc: 'Full-stack training — HTML, CSS, JS, React, Node.js, MongoDB, Tailwind. Built real client and personal projects during the course.',
   },
   {
