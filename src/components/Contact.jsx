@@ -1,13 +1,14 @@
 import { motion } from 'framer-motion'
 import SectionHeader from './SectionHeader'
+import { FiGithub, FiInstagram, FiLinkedin, FiMail, FiPhone } from 'react-icons/fi'
 import { personalInfo } from '../data/data'
 
 const links = [
-  { icon: '📧', label: 'Email',     val: 'sonidevansh899@gmail.com', href: `mailto:${personalInfo.email}` },
-  { icon: '📱', label: 'Phone',     val: '+91 9521186211',           href: `tel:${personalInfo.phone}` },
-  { icon: '🐙', label: 'GitHub',    val: 'Devansh-Soni1',            href: personalInfo.github },
-  { icon: '💼', label: 'LinkedIn',  val: 'devansh-soni1',            href: personalInfo.linkedin },
-  { icon: '📸', label: 'Instagram', val: '@__devansh_soni__',        href: personalInfo.instagram },
+  { icon: <FiMail />, label: 'Email',     val: 'sonidevansh899@gmail.com', href: `mailto:${personalInfo.email}` },
+  { icon: <FiPhone />, label: 'Phone',     val: '+91 9521186211',           href: `tel:${personalInfo.phone}` },
+  { icon: <FiGithub />, label: 'GitHub',    val: 'Devansh-Soni1',            href: personalInfo.github },
+  { icon: <FiLinkedin />, label: 'LinkedIn',  val: 'devansh-soni1',            href: personalInfo.linkedin },
+  { icon: <FiInstagram />, label: 'Instagram', val: '@__devansh_soni__',        href: personalInfo.instagram },
 ]
 
 export default function Contact() {

@@ -67,46 +67,6 @@ export default function Hero() {
             {personalInfo.bio}
           </motion.p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.6 }}
-            style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}
-          >
-            <a
-              href={`mailto:${personalInfo.email}`}
-              className="clip-btn hoverable"
-              style={{
-                padding: '12px 28px',
-                fontFamily: 'Rajdhani,sans-serif', fontSize: 13, fontWeight: 700,
-                letterSpacing: '0.2em', textTransform: 'uppercase',
-                background: 'linear-gradient(135deg,rgba(0,170,255,0.2),rgba(0,238,255,0.1))',
-                border: '1px solid var(--blue)', color: 'var(--cyan)',
-                boxShadow: '0 0 20px rgba(0,170,255,0.2)',
-                textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 8,
-                transition: 'all 0.25s',
-              }}
-              onMouseEnter={e => { e.currentTarget.style.boxShadow = '0 0 40px rgba(0,238,255,0.4)'; e.currentTarget.style.transform = 'translateY(-3px)' }}
-              onMouseLeave={e => { e.currentTarget.style.boxShadow = '0 0 20px rgba(0,170,255,0.2)'; e.currentTarget.style.transform = 'none' }}
-            >
-              ⚡ Contact Me
-            </a>
-            <a
-              href={personalInfo.github} target="_blank" rel="noreferrer"
-              className="clip-btn hoverable"
-              style={{
-                padding: '12px 28px',
-                fontFamily: 'Rajdhani,sans-serif', fontSize: 13, fontWeight: 700,
-                letterSpacing: '0.2em', textTransform: 'uppercase',
-                background: 'linear-gradient(135deg,rgba(255,34,68,0.15),rgba(255,106,0,0.1))',
-                border: '1px solid var(--red)', color: 'var(--orange)',
-                textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 8,
-                transition: 'all 0.25s',
-              }}
-              onMouseEnter={e => { e.currentTarget.style.boxShadow = '0 0 40px rgba(255,34,68,0.4)'; e.currentTarget.style.transform = 'translateY(-3px)' }}
-              onMouseLeave={e => { e.currentTarget.style.boxShadow = 'none'; e.currentTarget.style.transform = 'none' }}
-            >
-              ◈ GitHub
-            </a>
-          </motion.div>
         </div>
 
         {/* RIGHT — 3D Card (hidden on very small screens via auto-fit) */}

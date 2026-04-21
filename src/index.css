@@ -229,4 +229,17 @@ body {
   .clip-btn, .clip-sm {
     clip-path: none !important;
   }
+
+  
+}
+
+@media (hover: none), (pointer: coarse) {
+  body {
+    cursor: auto;
+  }
+
+  .custom-cursor-dot,
+  .custom-cursor-ring {
+    display: none !important;
+  }
 }

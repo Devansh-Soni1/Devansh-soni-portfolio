@@ -59,6 +59,7 @@ export default function Cursor() {
   return (
     <>
       <div
+        className='custom-cursor-dot'
         ref={dotRef}
         style={{
           position: 'fixed', width: 10, height: 10,
@@ -69,6 +70,7 @@ export default function Cursor() {
         }}
       />
       <div
+        className='custom-cursor-ring'
         ref={ringRef}
         style={{
           position: 'fixed', width: 36, height: 36,

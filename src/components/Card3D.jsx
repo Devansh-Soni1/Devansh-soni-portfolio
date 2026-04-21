@@ -6,7 +6,7 @@ export default function Card3D() {
   const isMobile = () => window.innerWidth <= 600
 
   const handleMove = (e) => {
-    if (isMobile()) return
+    
     const rect = e.currentTarget.getBoundingClientRect()
     const x = ((e.clientX - rect.left) / rect.width  - 0.5) * 2
     const y = ((e.clientY - rect.top)  / rect.height - 0.5) * 2
