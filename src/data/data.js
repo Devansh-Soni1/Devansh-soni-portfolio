@@ -71,7 +71,7 @@ export const projects = [
     title: 'Dev Portfolio',
     desc: 'Personal portfolio built with React, Framer Motion & Tailwind. 3D card, particle network, glowing UI — fully responsive.',
     tech: ['React', 'Framer Motion', 'Tailwind', '3D'],
-    link: '#',  // 🔗 Apna link yahan add karo jab deploy ho jaye
+    link: 'https://devansh-soni-portfolio.vercel.app/',  
   },
 ]
 
