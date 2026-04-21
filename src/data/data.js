@@ -85,7 +85,7 @@ export const education = [
   {
     date: '2023 — 2025',
     title: 'Bachelor of Computer Applications',
-    org: '// Shri Balaji College · PDDUSUNIV, Sikar',
+    org: '// Shri Balaji College · PDUS Univercity, Sikar',
     desc: 'Core CS fundamentals, programming, databases and software development. Graduated with good academic performance.',
   },
 ]
