@@ -49,7 +49,7 @@ export const projects = [
   {
     id: 2,
     tag: 'Game',
-    isLive: false,
+    isLive: true,
     title: 'Tic Tac Toe AI',
     desc: 'Browser game with smart AI opponent & 1v1 mode. Unbeatable computer logic in pure vanilla JS.',
     tech: ['JavaScript', 'CSS', 'AI Logic'],
@@ -68,7 +68,7 @@ export const projects = [
     id: 4,
     tag: 'Portfolio',
     isLive: true,
-    title: 'Dev Portfolio',
+    title: 'Devvansh soni Portfolio',
     desc: 'Personal portfolio built with React, Framer Motion & Tailwind. 3D card, particle network, glowing UI — fully responsive.',
     tech: ['React', 'Framer Motion', 'Tailwind', '3D'],
     link: 'https://devansh-soni-portfolio.vercel.app/',  
@@ -85,7 +85,7 @@ export const education = [
   {
     date: '2023 — 2025',
     title: 'Bachelor of Computer Applications',
-    org: '// Shri Balaji College · PDUS Univercity, Sikar',
+    org: '// Shri Balaji College · PDUS University, Sikar',
     desc: 'Core CS fundamentals, programming, databases and software development. Graduated with good academic performance.',
   },
 ]
