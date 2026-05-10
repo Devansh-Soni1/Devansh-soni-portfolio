@@ -43,7 +43,7 @@ export const projects = [
     isLive: true,
     title: 'Sunshine Handmade',
     desc: 'Real client e-commerce site for a handmade brand. Live on web — clean product UI, smooth UX, fully responsive.',
-    tech: ['HTML', 'CSS', 'JS', 'Responsive'],
+    tech: ['JavaScript', 'React', 'Node.js', 'MongoDB', 'Responsive', 'REST APIs'],
     link: 'https://www.sunshinehandmade.in/',
   },
   {

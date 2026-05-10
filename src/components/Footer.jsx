@@ -11,7 +11,7 @@ export default function Footer() {
         DS.
       </div>
       <div style={{ fontSize: 10, color: 'var(--muted)', letterSpacing: '0.12em', fontFamily: 'JetBrains Mono,monospace' }}>
-        © 2025 · DEVANSH SONI · SIKAR
+        © 2025 · DEVANSH SONI · SUJANGARH
       </div>
     </footer>
   )

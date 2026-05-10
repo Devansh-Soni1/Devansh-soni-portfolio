@@ -13,10 +13,9 @@ function LiveDot({ color = 'var(--green)' }) {
 }
 
 function ProjectCard({ project, index }) {
-  const isPortfolio = project.tag === 'Portfolio'
-  const tagColor = isPortfolio ? 'var(--orange)' : 'var(--cyan)'
-  const borderDefault = isPortfolio ? 'rgba(255,106,0,0.25)' : 'var(--border2)'
-  const borderHover   = isPortfolio ? 'rgba(255,106,0,0.5)'  : 'rgba(0,238,255,0.3)'
+  const tagColor = 'var(--cyan)'
+  const borderDefault =  'var(--border2)'
+  const borderHover   = 'rgba(0,238,255,0.3)'
 
   return (
     <motion.a
@@ -50,7 +49,6 @@ function ProjectCard({ project, index }) {
       {/* tag */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10, flexWrap: 'wrap' }}>
         {project.isLive     && <LiveDot />}
-        {isPortfolio        && <LiveDot color="var(--orange)" />}
         <span style={{ fontSize: 10, letterSpacing: '0.15em', textTransform: 'uppercase', color: tagColor, fontFamily: 'JetBrains Mono,monospace' }}>
           {project.tag}
         </span>
